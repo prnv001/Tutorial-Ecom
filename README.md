@@ -8,4 +8,4 @@ Contact.html — Contact form or contact information page
 css/ — Folder containing all CSS stylesheets for the site
 Images/ — Folder containing images used throughout the website
 
-For Live click on this----https://prnv001.github.io/EDU-HUB-ECOM/
+For Live click on this----https://prnv001.github.io/Tutorial-Ecom/
