@@ -1013,6 +1013,11 @@ footer ul li a:hover i {
     right: 2rem;
     z-index: 1000;
   }
+  
+  .logo img {
+    width: 120px;
+    height: auto;
+  }
 
   .navbar {
     display: none;
