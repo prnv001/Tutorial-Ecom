@@ -33,7 +33,11 @@
             style="border-radius:15% ;" />
         </a>
       </div>
-
+      
+       <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+      
       <div class="navbar" id="nav-menu">
         <ul>
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
@@ -46,9 +50,6 @@
             <a class="nav-link" href="Contact.html">Contact Us</a>
           </li>
         </ul>
-       <div class="hamburger" id="hamburger">
-         <i class="fas fa-bars"></i>
-       </div>
       </div>
     </div>
   </header>
@@ -369,9 +370,14 @@
       </div>
     </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="script.js">
-      AOS.init();
-    </script>
+    <script>
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+  </script>
 </body>
 
 </html>
